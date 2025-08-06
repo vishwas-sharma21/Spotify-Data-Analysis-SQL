@@ -13,6 +13,12 @@ This project explores the Spotify music dataset to derive actionable insights by
 ## Dataset Description
 The `spotify_details` table contains song metadata, audio features (danceability, energy, valence, etc.), video metrics (views, likes, comments), licensing data, and platform-specific streaming counts. This rich dataset simulates what a music streaming business could analyze for performance and engagement.
 
+ | Column Name      | artist        | track        | album        | album_type   | danceability | energy       | loudness     | speechiness  | acousticness | instrumentalness | liveness     | valence      | tempo        | duration_min | title        | channel      | views        | likes       | comments    | licensed    | official_video | stream      | energy_liveness | most_played_on |
+|------------------|---------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|------------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|-------------|-------------|-------------|----------------|-------------|-----------------|----------------|
+| Data Type        | VARCHAR(255)  | VARCHAR(255) | VARCHAR(255) | VARCHAR(50)  | FLOAT        | FLOAT        | FLOAT        | FLOAT        | FLOAT        | FLOAT            | FLOAT        | FLOAT        | FLOAT        | FLOAT        | VARCHAR(255) | VARCHAR(255) | FLOAT        | BIGINT      | BIGINT      | BOOLEAN     | BOOLEAN       | BIGINT      | FLOAT           | VARCHAR(50)   |
+| Nullable         | YES           | YES          | YES          | YES          | YES          | YES          | YES          | YES          | YES          | YES              | YES          | YES          | YES          | YES          | YES          | YES          | YES          | YES         | YES         | YES         | YES           | YES         | YES             | YES            |
+
+
 ### Key columns:
 - `artist`, `track`, `album`, `album_type` — song metadata
 - `danceability`, `energy`, `liveness`, etc. — audio feature metrics
