@@ -1,4 +1,11 @@
-# Spotify Data Analysis using SQL
+<h1 align="center">🎵 Spotify Data Analysis using SQL 🎵</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/SQL-PostgreSQL-316192?logo=postgresql&logoColor=white&style=for-the-badge" alt="SQL Badge" />
+  <img src="https://img.shields.io/badge/Excel-Microsoft%20Excel-217346?logo=microsoft-excel&logoColor=white&style=for-the-badge" alt="Excel Badge" />
+  <img src="https://img.shields.io/badge/Platform-GitHub-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub Badge" />
+  <img src="https://img.shields.io/badge/Business%20Intelligence-BI-f9a825?logo=tableau&logoColor=white&style=for-the-badge" alt="Business Intelligence Badge" />
+</p>
 
 ## Project Overview
 This project explores the Spotify music dataset to derive actionable insights by querying millions of streaming and video engagement data points. By leveraging SQL’s analytical capabilities — including window functions, CTEs, and aggregation — we resolve real-world business questions that help drive marketing strategies, content promotion, and product enhancement for digital music platforms.
